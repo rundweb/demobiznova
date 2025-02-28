@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-primary {
+    @apply max-w-7xl m-auto p-5 flex items-center;
+  }
+
+  span{
+    @apply text-blue-600
+  }
+}
